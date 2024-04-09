@@ -1,7 +1,7 @@
 .container {
     border: 1px solid black;
     display: flex;
-    width: 500px;
+    width: 100%;
     justify-content: center;
 }
 
@@ -27,4 +27,10 @@
 
 .button:hover {
     background-color: purple;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
 }
