@@ -7,13 +7,24 @@
 
 .box {
     border: 1px solid red;
-    width: 200px;
+    flex-grow: 1;
 }
 
 .bigger {
-    width: 50%;
+    flex-grow: 2;
 }
 
-.smaller {
-    width: 25%;
+.button {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(1, 1, 111);
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+    transition: background-color 2s;
+}
+
+.button:hover {
+    background-color: purple;
 }
